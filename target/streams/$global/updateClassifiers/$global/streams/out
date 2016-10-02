@@ -1,0 +1,1003 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * jline:jline:(2.11, 2.12.1)
+[debug] :: resolving dependencies :: com.hdbandit#sbt_twitter_plugin$sources;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [runtime]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [test]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [runtime]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [provided]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b2552bf
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#sbt;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64c12dab
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
+[debug] 	found org.scala-sbt#sbt;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#main;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36f9a0fe
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.8
+[debug] 	found org.scala-sbt#main;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#actions;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#actions;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@713edb9b
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.8
+[debug] 	found org.scala-sbt#actions;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classpath;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#classpath;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18811f2c
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.8
+[debug] 	found org.scala-sbt#classpath;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b7142ad
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2db40b64
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5093b75
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55b68f66
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#launcher-interface;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#launcher-interface;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e78e8e8
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;0.13.8
+[debug] 	found org.scala-sbt#launcher-interface;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#interface;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#interface;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15fb881f
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#interface;0.13.8
+[debug] 	found org.scala-sbt#interface;0.13.8 in sbt-chain
+[debug] 	[0.13.8] org.scala-sbt#interface;0.13.8
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#io;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#io;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b164cdf
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#io;0.13.8
+[debug] 	found org.scala-sbt#io;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#control;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#control;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@295aff8f
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.8
+[debug] 	found org.scala-sbt#control;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#completion;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#completion;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5409a6ef
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.8
+[debug] 	found org.scala-sbt#completion;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#collections;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#collections;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b9ffcbb
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#collections;0.13.8
+[debug] 	found org.scala-sbt#collections;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->default(compile)]
+[info] Resolving jline#jline;2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c4f87d7
+[debug] sbt-chain: module revision found in cache: jline#jline;2.11
+[debug] 	found jline#jline;2.11 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#api;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#api;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d5843a
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#api;0.13.8
+[debug] 	found org.scala-sbt#api;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-integration;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#compiler-integration;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4590ef6c
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.8
+[debug] 	found org.scala-sbt#compiler-integration;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#incremental-compiler;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#incremental-compiler;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43fbe75e
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.13.8
+[debug] 	found org.scala-sbt#incremental-compiler;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logging;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#logging;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6992ebc4
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#logging;0.13.8
+[debug] 	found org.scala-sbt#logging;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#process;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#process;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b344f6c
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#process;0.13.8
+[debug] 	found org.scala-sbt#process;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#relation;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#relation;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7298b55a
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#relation;0.13.8
+[debug] 	found org.scala-sbt#relation;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compile;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#compile;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e242e9
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#compile;0.13.8
+[debug] 	found org.scala-sbt#compile;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classfile;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#classfile;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e8a9988
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#classfile;0.13.8
+[debug] 	found org.scala-sbt#classfile;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#persist;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#persist;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42d487e
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#persist;0.13.8
+[debug] 	found org.scala-sbt#persist;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [provided->default(compile)]
+[info] Resolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19d585ac
+[debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
+[debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#compiler-ivy-integration;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34762ecf
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.8
+[debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#ivy;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#ivy;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a8dbd26
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.8
+[debug] 	found org.scala-sbt#ivy;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cross;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#cross;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@209d113
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.8
+[debug] 	found org.scala-sbt#cross;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [provided->default(compile)]
+[info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f2cbce4
+[debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f
+[debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->default(compile)]
+[info] Resolving com.jcraft#jsch;0.1.46 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70351070
+[debug] sbt-chain: module revision found in cache: com.jcraft#jsch;0.1.46
+[debug] 	found com.jcraft#jsch;0.1.46 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#serialization_2.10;0.1.1 [provided->default(compile)]
+[info] Resolving org.scala-sbt#serialization_2.10;0.1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68db1063
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#serialization_2.10;0.1.1
+[debug] 	found org.scala-sbt#serialization_2.10;0.1.1 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-pickling_2.10;0.10.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a4a5b9e
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-pickling_2.10;0.10.0
+[debug] 	found org.scala-lang.modules#scala-pickling_2.10;0.10.0 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->default(compile)]
+[info] Resolving org.scalamacros#quasiquotes_2.10;2.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ae2f69e
+[debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
+[debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->default(compile)]
+[info] Resolving org.json4s#json4s-core_2.10;3.2.10 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5300bf83
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
+[debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->default(compile)]
+[info] Resolving org.json4s#json4s-ast_2.10;3.2.10 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21d394cd
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
+[debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->default(compile)]
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4896ab60
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->default(compile)]
+[info] Resolving org.spire-math#jawn-parser_2.10;0.6.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fd22845
+[debug] sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.10;0.6.0
+[debug] 	found org.spire-math#jawn-parser_2.10;0.6.0 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->default(compile)]
+[info] Resolving org.spire-math#json4s-support_2.10;0.6.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bbb1acd
+[debug] sbt-chain: module revision found in cache: org.spire-math#json4s-support_2.10;0.6.0
+[debug] 	found org.spire-math#json4s-support_2.10;0.6.0 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#run;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#run;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@281da56
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#run;0.13.8
+[debug] 	found org.scala-sbt#run;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#task-system;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#task-system;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cff675c
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#task-system;0.13.8
+[debug] 	found org.scala-sbt#task-system;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tasks;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#tasks;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6675a881
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#tasks;0.13.8
+[debug] 	found org.scala-sbt#tasks;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tracking;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#tracking;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35ca020b
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#tracking;0.13.8
+[debug] 	found org.scala-sbt#tracking;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cache;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#cache;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40438540
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#cache;0.13.8
+[debug] 	found org.scala-sbt#cache;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#testing;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#testing;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55b0f9c7
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#testing;0.13.8
+[debug] 	found org.scala-sbt#testing;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-agent;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#test-agent;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ad7b94b
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.13.8
+[debug] 	found org.scala-sbt#test-agent;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->default(compile)]
+[info] Resolving org.scala-sbt#test-interface;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53c33bea
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main-settings;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#main-settings;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2075585e
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#main-settings;0.13.8
+[debug] 	found org.scala-sbt#main-settings;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#apply-macro;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#apply-macro;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1797e5b4
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#apply-macro;0.13.8
+[debug] 	found org.scala-sbt#apply-macro;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#command;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#command;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@376f969b
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#command;0.13.8
+[debug] 	found org.scala-sbt#command;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logic;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#logic;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ea11f2d
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.8
+[debug] 	found org.scala-sbt#logic;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c3c0d38
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_8_2;0.13.8
+[debug] 	found org.scala-sbt#precompiled-2_8_2;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_2;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#precompiled-2_9_2;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1308d261
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_2;0.13.8
+[debug] 	found org.scala-sbt#precompiled-2_9_2;0.13.8 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [provided->default(compile)]
+[info] Resolving org.scala-sbt#precompiled-2_9_3;0.13.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c9e12b9
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
+[debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile-internal]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [optional]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [provided]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#actions;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classpath;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#launcher-interface;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#interface;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#io;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#control;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#completion;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#collections;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#api;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-integration;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#incremental-compiler;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logging;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#process;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#relation;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compile;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classfile;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#persist;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#ivy;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cross;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#serialization_2.10;0.1.1 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#run;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#task-system;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tasks;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tracking;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cache;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#testing;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-agent;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main-settings;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#apply-macro;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#command;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logic;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_2;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#sbt;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#actions;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classpath;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#launcher-interface;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#interface;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#io;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#control;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#completion;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#collections;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#api;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-integration;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#incremental-compiler;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logging;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#process;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#relation;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compile;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classfile;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#persist;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#ivy;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cross;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#serialization_2.10;0.1.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#run;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#task-system;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tasks;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tracking;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cache;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#testing;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-agent;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main-settings;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#apply-macro;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#command;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logic;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_2;0.13.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [compile-internal->default(compile)]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [runtime-internal]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [runtime]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [test-internal]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [test]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [runtime]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [compile]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [optional]
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [provided]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#actions;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classpath;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#launcher-interface;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#interface;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#io;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#control;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#completion;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#collections;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#api;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-integration;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#incremental-compiler;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logging;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#process;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#relation;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compile;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classfile;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#persist;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#ivy;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cross;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#serialization_2.10;0.1.1 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#run;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#task-system;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tasks;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tracking;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cache;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#testing;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-agent;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [provided->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main-settings;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#apply-macro;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#command;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logic;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_2;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#sbt;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#actions;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classpath;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#launcher-interface;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#interface;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#io;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#control;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#completion;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#collections;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.11 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#api;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-integration;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#incremental-compiler;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logging;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#process;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#relation;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compile;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#classfile;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#persist;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#compiler-ivy-integration;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#ivy;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cross;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.jcraft#jsch;0.1.46 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#serialization_2.10;0.1.1 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.0 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-core_2.10;3.2.10 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.json4s#json4s-ast_2.10;3.2.10 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->com.thoughtworks.paranamer#paranamer;2.6 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.spire-math#json4s-support_2.10;0.6.0 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#run;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#task-system;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tasks;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#tracking;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#cache;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#testing;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-agent;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#test-interface;1.0 [test-internal->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#main-settings;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#apply-macro;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#command;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#logic;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_2;0.13.8 [test-internal->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [test-internal->default(compile)]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for com.hdbandit#sbt_twitter_plugin$sources;1.0 [scala-tool]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies com.hdbandit#sbt_twitter_plugin$sources;1.0->jline#jline;2.12.1 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.8!actions.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.8!actions.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.8!classpath.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.8!classpath.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;0.13.8!launcher-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;0.13.8!launcher-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.8!interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.8!interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#io;0.13.8!io.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#io;0.13.8!io.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.8!control.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.8!control.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#completion;0.13.8!completion.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#completion;0.13.8!completion.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections;0.13.8!collections.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections;0.13.8!collections.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#api;0.13.8!api.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#api;0.13.8!api.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-integration;0.13.8!compiler-integration.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-integration;0.13.8!compiler-integration.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.8!incremental-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.8!incremental-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.8!logging.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.8!logging.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#process;0.13.8!process.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#process;0.13.8!process.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#relation;0.13.8!relation.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#relation;0.13.8!relation.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compile;0.13.8!compile.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compile;0.13.8!compile.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#classfile;0.13.8!classfile.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#classfile;0.13.8!classfile.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.8!persist.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.8!persist.jar
+[debug] 	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.10;0.4.2!sbinary_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.10;0.4.2!sbinary_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-ivy-integration;0.13.8!compiler-ivy-integration.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-ivy-integration;0.13.8!compiler-ivy-integration.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#ivy;0.13.8!ivy.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#ivy;0.13.8!ivy.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.8!cross.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.8!cross.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f!ivy.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f!ivy.jar(src)
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar(src)
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.10;0.10.0!scala-pickling_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.0.1!quasiquotes_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.10;0.6.0!jawn-parser_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#json4s-support_2.10;0.6.0!json4s-support_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#run;0.13.8!run.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#run;0.13.8!run.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#task-system;0.13.8!task-system.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#task-system;0.13.8!task-system.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#tasks;0.13.8!tasks.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#tasks;0.13.8!tasks.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#tracking;0.13.8!tracking.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#tracking;0.13.8!tracking.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.13.8!cache.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.13.8!cache.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#testing;0.13.8!testing.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#testing;0.13.8!testing.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.8!main-settings.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.8!main-settings.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.8!command.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.8!command.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[debug] 		tried /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] 		tried https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[warn] 	[FAILED     ] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar:  (0ms)
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[warn] ==== local: tried
+[warn]   /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_8_2/0.13.8/jars/precompiled-2_8_2.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[warn] ==== Bintray-Resolve-asdkasd-sbt-plugins: tried
+[warn]   https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_8_2/0.13.8/precompiled-2_8_2-0.13.8.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[debug] 		tried /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] 		tried https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[warn] 	[FAILED     ] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar:  (0ms)
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[warn] ==== local: tried
+[warn]   /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_9_2/0.13.8/jars/precompiled-2_9_2.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[warn] ==== Bintray-Resolve-asdkasd-sbt-plugins: tried
+[warn]   https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_2/0.13.8/precompiled-2_9_2-0.13.8.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[debug] 		tried /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] 		tried https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[warn] 	[FAILED     ] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar:  (0ms)
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[warn] ==== local: tried
+[warn]   /Users/gerard/.ivy2/local/org.scala-sbt/precompiled-2_9_3/0.13.8/jars/precompiled-2_9_3.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[warn] ==== Bintray-Resolve-asdkasd-sbt-plugins: tried
+[warn]   https://dl.bintray.com/content/asdkasd/sbt-plugins/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/scala-sbt/precompiled-2_9_3/0.13.8/precompiled-2_9_3-0.13.8.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 319ms :: artifacts dl 6528ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar
+[warn] 	:: org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar
+[warn] 	:: org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 compile produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-compile.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 runtime produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-runtime.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 test produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-test.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 provided produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-provided.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 optional produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-optional.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 compile-internal produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-compile-internal.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 runtime-internal produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-runtime-internal.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 test-internal produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-test-internal.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 plugin produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-plugin.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 sources produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-sources.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 docs produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-docs.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 pom produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-pom.xml
+[debug] 	report for com.hdbandit#sbt_twitter_plugin$sources;1.0 scala-tool produced in /Users/gerard/letgo/twitter_plugin/target/resolution-cache/reports/com.hdbandit-sbt_twitter_plugin$sources-scala-tool.xml
+[debug] 	resolve done (319ms resolve - 6528ms download)

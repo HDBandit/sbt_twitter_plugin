@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.hdbandit"
+		module="sbt_twitter_plugin"
+		revision="1.0"
+		extra-scalaVersion="2.11"
+		extra-sbtVersion="0.13"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161002230512"/>
+	<dependencies>
+		<module organisation="org.twitter4j" name="twitter4j">
+			<revision name="4.0.5" status="release" pubdate="20160913191218" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2288" time="0" location="/Users/gerard/.ivy2/cache/org.twitter4j/twitter4j/ivy-4.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/twitter4j/twitter4j/4.0.5/twitter4j-4.0.5.pom"/>
+				<caller organisation="com.hdbandit" name="sbt_twitter_plugin" conf="compile, runtime" rev="4.0.5" rev-constraint-default="4.0.5" rev-constraint-dynamic="4.0.5" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
